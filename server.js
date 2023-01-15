@@ -5,7 +5,7 @@ const PORT = process.env.PORT
 
 //index route 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello Class of NYU 04')
 })
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`) )
